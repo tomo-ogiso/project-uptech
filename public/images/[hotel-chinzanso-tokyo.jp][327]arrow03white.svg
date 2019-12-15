@@ -1,0 +1,18 @@
+<svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="37.34" viewBox="0 0 22 37.34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="_" data-name="|" class="cls-1" x="10.5" width="1" height="35"/>
+  <path id="arrow-2" data-name="arrow" class="cls-2" d="M1315.8,2648l9.7,12.23,9.7-12.23" transform="translate(-1314.5 -2625)"/>
+</svg>

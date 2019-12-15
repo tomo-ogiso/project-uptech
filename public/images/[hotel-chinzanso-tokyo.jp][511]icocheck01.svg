@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="23.5" viewBox="0 0 21.5 23.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b39a62;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="ico_check01.png" class="cls-1" d="M633.5,2624.5l8,11L655,2612s-10.12,13.29-13.5,18A36.535,36.535,0,0,0,633.5,2624.5Z" transform="translate(-633.5 -2612)"/>
+</svg>
