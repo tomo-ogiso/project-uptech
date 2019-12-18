@@ -180,12 +180,23 @@ header {
   width: 20%;
 }
 
-.is-click .reservation-inner .reservation-inner-search {
-  width: 40%;
+.is-click .reservation-inner .reservation-inner-mainsearch {
+  width: 80%;
 }
 
-.is-click .reservation-inner .reservation-inner-insearch {
-  width: 20%;
+.is-click .reservation-inner form {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.is-click .reservation-inner form .reservation-inner-search {
+  width: 60%;
+}
+
+.is-click .reservation-inner form .reservation-inner-insearch {
+  width: 40%;
 }
 
 .is-click .reservation-a {
@@ -222,6 +233,43 @@ header {
   font-weight: bold;
   margin-top: 50px;
   text-align: center;
+}
+
+.is-click .reservation-a .reservation-inner-mainsearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.is-click .reservation-a .reservation-inner-mainsearch h3 {
+  width: 70%;
+  text-align: center;
+  line-height: 70px;
+}
+
+.is-click .reservation-a .reservation-inner-mainsearch img {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 40%;
+}
+
+.is-click .reservation-a .reservation-inner-mainsearch .reservation-inner-mainsearch-inner {
+  width: 20%;
+  height: 40%;
+  background-color: green;
+  border-radius: 2px;
+  margin: auto;
+}
+
+.is-click .reservation-a .reservation-inner-mainsearch .reservation-inner-mainsearch-inner a {
+  display: block;
+  height: 100%;
+  text-align: center;
+  line-height: 42px;
+  color: #fff;
 }
 
 .is-click .reservation-a .reservation-inner-search .reservation-inner-search-inner {

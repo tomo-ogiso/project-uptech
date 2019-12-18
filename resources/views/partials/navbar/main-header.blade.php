@@ -1,9 +1,7 @@
 <div class="header">
                 <div class="header-in">
                     <div id="icon">
-                        <a href="{{ url('/') }}">
-                            <img src="/images/[hotel-chinzanso-tokyo.jp][559]logo (1).svg" alt="椿山荘">
-                        </a>
+                        <img src="/images/[hotel-chinzanso-tokyo.jp][559]logo (1).svg" alt="椿山荘">
                     </div>
                     <div class="header-inner">
                         <div class="header-inner-nav1">
@@ -88,38 +86,12 @@
                     <img src="/images/[hotel-chinzanso-tokyo.jp][667]icocalendar.svg" width="30" height="30">
                     <h3>ご予約</h3>
                 </div>
-                <form action="{{ action('ReservationController@create') }}" method="post">
-                    @csrf
-                    <div class="reservation-inner-search">
-                        <p>ご宿泊</p>
-                        <ul class="reservation-inner-search-inner">    
-                            <li>
-                                <h4>ご宿泊日</h4>
-                                <select id="day-1" name="lodgingmonth">
-                                </select>
-                                <select id="day-2" name="lodgingdate">
-                                </select>
-                            </li>
-                            <li>
-                                <h4>ご宿泊日数</h4>
-                                <select id="day-3" name="staydays">
-                                </select>
-                            </li>
-                            <li>
-                                <h4>ご宿泊人数</h4>
-                                <select id="people" name="people">
-                                </select>
-                            </li>
-                            <li>
-                                <h4>部屋数</h4>
-                                <select id="room" name="room">
-                                </select>
-                            </li>
-                        </ul>
-                    </div>    
-                    <div class="reservation-inner-insearch">
-                        <input type="submit" class="search" value="検索">
+                <div class="reservation-inner-mainsearch">
+                    <h3>クリックすると画面が変わります</h3>
+                    <img src="/images/[hotel-chinzanso-tokyo.jp][319]arrow01gold02.svg" width="40" height="20">
+                    <div class="reservation-inner-mainsearch-inner">
+                        <a href="{{ action('ReservationController@add') }}">検索する</a>
                     </div>
-                </form>
+                </div>
             </div>
         </div>

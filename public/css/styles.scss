@@ -172,11 +172,18 @@ header {
         .reservation-inner-img {
             width: 20%;
         }
-        .reservation-inner-search {
-            width: 40%;
+        .reservation-inner-mainsearch {
+            width: 80%;
         }
-        .reservation-inner-insearch {
-            width: 20%;
+        form {
+            width: 60%;
+            display: flex;
+            .reservation-inner-search {
+                width: 60%;
+            }
+            .reservation-inner-insearch {
+                width: 40%;
+            }
         }
     }
     .reservation-a {
@@ -201,6 +208,35 @@ header {
                 font-weight: bold;
                 margin-top: 50px;
                 text-align: center;
+            }
+        }
+        .reservation-inner-mainsearch {
+            display: flex;
+            position: relative;
+            h3 {
+                width: 70%;
+                text-align: center;
+                line-height: 70px;
+            }
+            img {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 40%;
+            }
+            .reservation-inner-mainsearch-inner {
+                width: 20%;
+                height: 40%;
+                background-color: green;
+                border-radius: 2px;
+                margin: auto;
+                a {
+                    display: block;
+                    height: 100%;
+                    text-align: center;
+                    line-height: 42px;
+                    color: #fff;
+                }
             }
         }
         .reservation-inner-search {

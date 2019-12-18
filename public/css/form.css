@@ -1,0 +1,25 @@
+.lodging-confirm {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px double #ccc;
+}
+
+.lodging-confirm tr {
+  border: 1px double #ccc;
+}
+
+.lodging-confirm tr th {
+  border: 1px double #ccc;
+}
+
+.lodging-confirm tr td {
+  border: 1px double #ccc;
+}
+
+.lodging-confirm tr td input {
+  padding-left: 20px;
+}
+/*# sourceMappingURL=form.css.map */

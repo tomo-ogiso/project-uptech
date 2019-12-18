@@ -1,0 +1,20 @@
+.lodging-confirm {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px double#ccc;
+    tr {
+        border: 1px double #ccc;
+        th {
+            border: 1px double#ccc;
+        }
+        td {
+            border: 1px double #ccc;
+            input {
+                padding-left: 20px;
+            }
+        }
+    }
+}

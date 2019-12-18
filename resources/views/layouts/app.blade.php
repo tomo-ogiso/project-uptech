@@ -38,7 +38,7 @@
 
             // 日
             for(var d = 1; d <= 31; d++){
-                $('#day-2').append('<option value='+ date +'>' + d + '日' + '</option>');
+                $('#day-2').append('<option value='+ d +'>' + d + '日' + '</option>');
             }
             
             // 宿泊日数
@@ -133,6 +133,7 @@
                     }
                 }    
             });
+            
         });
     </script>
 </head>
@@ -140,7 +141,7 @@
 <body>
     <div id="wrapper">
         <header>
-            @include('partials.navbar.header')    
+            @include('partials.navbar.main-header')    
         </header>
         <div class="container">
             <main>

@@ -18,3 +18,6 @@
     Route::get('/', function(){
         return view('layouts.app');
     });
+
+    Route::get('confirm', 'ReservationController@add');    
+    Route::post('confirm', 'ReservationController@create');
